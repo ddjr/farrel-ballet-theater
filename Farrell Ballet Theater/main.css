@@ -1,0 +1,149 @@
+body {
+	background-color: #121220; 
+}
+a {
+  color: #00b0ff;
+}
+#uberbar { 
+	background: #121220; 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	z-index:2000; 
+	width:100%;
+}
+.nav a {
+  color: #FFF4fB;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+td {
+	color: #9f9f9f;
+}
+.jumbotron p {
+  font-size: 20px;
+  color: #ffffff;
+}
+span {
+	color: #FFF4fB;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF4fB;
+  
+}
+.learn-more p {
+	color: #9f9f9f;
+}
+.footer {
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background: #101018;
+  padding-top: 10px;
+}
+
+.footer p {
+  color: #FFF4fB;
+}
+
+.footer li {
+	color: #FFF4fB;
+  display: inline;
+}
+
+  .parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+  }
+  
+.parallax__layer--back {
+  padding-right 100px;
+  transform: translateZ(-1px) scale(2);
+}
+.parallax__layer--deep {
+  transform: translateZ(-2px) scale(3);
+}
+
+#intro {
+position: relative;
+width: 760px;
+margin-left: -380px;
+left: 50%;
+height: 1130px;
+margin-top: 0px;
+}
+
+#intro #speech {
+position: absolute;
+color: #9f9f9f;
+left: 425px;
+top: 20px;
+font-size: 18px;
+width: 330px;
+line-height: 22px;
+margin-bottom: 0;
+padding: 10px;
+text-align: left;
+z-index: 998;
+border: 0 !important;
+}
+
+#intro #hpimga {
+position: absolute;
+left: 0;
+margin-bottom: 0;
+}
+
+#intro #hpimgb {
+position: absolute;
+left: 325px;
+}
+

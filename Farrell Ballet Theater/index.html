@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <head>
+  	<link rel="icon" type="image/x-icon" href="images/icon.jpg">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+
+
+    <title>Farrell Ballet Theatre</title>
+  </head>
+
+  <body>
+  	<div id="uberbar">
+    	<div class="nav">
+	      <div class="container">
+	        <ul class="pull-left">
+	          <li><a href="index.html">Farrell Ballet Theatre</a></li>
+	        </ul>
+	        <ul class="pull-right">
+	          <li><a href="about.html">About</a></li>
+	          <li><a href="ballet_classes.html">Ballet Classes</a></li>
+	          <li><a href="support.html">Support</a></li>
+	          <li><a href="contact.html">Contact</a></li>
+	          <li><a href="upcoming_events.html">Upcoming Events</a></li>
+	        </ul>
+	      </div>
+	    </div>
+    </div>
+
+    <div class="spacer">
+    	<p>.</p>
+    </div>
+
+	<div class="col-md-12">
+	    <div class="jumbotron" style="background-image: url('images/praise.jpg');">
+	      <div class="container">
+	        <h1>Find a place to stay.</h1>
+	        <p>Take class in the old-world russian style.</p>
+	        <a href="ballet_classes.html">Learn More</a>
+	      </div>
+	    </div>
+	</div>
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	  	  <div class="col-md-4">
+			<h3>Tradition</h3>
+			<p>Since 1985, The Farrell Ballet Theatre has taught hardwork and dedication to its students.</p>
+			<p><a href="ballet_classes.html">See how FBT can grow you</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Excitment</h3>
+			<p>Come find out what FBT has in store on this year's calendar.</p>
+			<p><a href="upcoming_events.html">Learn more about current events</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Support</h3>
+			<p>It's amazing what goes into making a ballet truely effortless.</p>
+			<p><a href="support.html">Learn about how you can support FBT today</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div id="intro">
+		<div id="speech">
+			<p>The Farrell Ballet Theatre is dedicated to the art form of ballet.
+				"There is a vitality, a life force, an energy, a quickening,
+				 that is translated through you into action, and because there
+				  is only one of you in all time, this expression is unique."
+				  - Martha Graham
+				  </p>
+
+			</div>
+			<div id="hpimga" style="top: 50px;">
+			<img src="images/hd_pose.jpg" alt="agence toulouse" style=" height: 450px;"></div>
+			<div id="hpimgb" style="top: 100px;"><img src="images/four_p.jpg" alt="communication toulouse" style=" height: 375px;"></div>
+	</div>
+
+    <div class="footer col-md-12" >
+  	  <div class="container">
+  	  	<p>Artistic Director, Sher Marie Farrell</p>
+  		<ul>
+	  		<li>1200 Academy Street	Kalamazoo, MI 49006 -</li>
+	  		<li> Contact information:<a href="mailto:farrellballettheetre@gmail.com">
+	  	farrellballettheetre@gmail.com</a>   </li>
+	  		<li>  - 269.381.1058</li>
+	  	</ul>
+	  	<p style="font-size: 10px; color: #9f9f9f;">Designed by: David Daly 2014</p>
+	  </div>
+    </div>
+
+   </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>/*<![CDATA[*/$(document).ready(function(){$('#home-latest img').load(function(){var vaazoudazd=$(this).css('top');$(this).animate({'top':'0'},500);});});$(window).load(function(){var cpt=0;var lettre=['M','A','S','H','V','P'];var timer=setInterval(next,2000);$(window).scroll(function(){if($(window).width()<500)return;scrollTop=$(window).scrollTop();$('#hpimga').css('top',Math.round(60+scrollTop/9)+'px');$('#hpimgb').css('top',Math.round(120+scrollTop/4)+'px');$('#slider').css('top',Math.round(720-scrollTop/6)+'px');});function next(){$('#slider').html(lettre[cpt]);cpt++;if(cpt==6)cpt=0;}});function mmoobbiillee(){$('#navmobile').toggle();}/*]]>*/</script>
+</html>
