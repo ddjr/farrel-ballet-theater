@@ -1,2 +1,2 @@
-# farrel-ballet-theater
-code for farrelballettheater.com
+# farrell-ballet-theater
+code for www.farrellballettheater.com
